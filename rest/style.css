@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff6fb;
+    color: #444;
+   }
+   /* Top bar */
+   .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #ffe0f0;
+    border-bottom: 1px solid #ffc0cb;
+   }
+   .title {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    font-weight: 600;
+   }
+   .search-bar {
+    flex: 1;
+    margin: 0 20px;
+    padding: 8px 10px;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+   }
+   .search-bar:focus {
+    outline: 2px solid #ff66aa;
+   }
+   /* Icons */
+   .icons span {
+    margin-left: 10px;
+    background-color: #ffcce5;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-weight: bold;
+   }
+   /* Layout */
+   .main {
+    display: flex;
+   }
+   /* Sidebar */
+   .sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff0f7;
+    border-right: 1px solid #ffb6d9;
+   }
+   .sidebar button {
+    display: block;
+    margin-top: 10px;
+    padding: 6px;
+    border: 1px solid #ff66aa;
+    background-color: #ffe0f0;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   /* Content */
+   .content {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   }
+   
+   
+   /* Item Card */
+   .item-card {
+    width: 250px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ffb6d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 105, 180, 0.2);
+    text-align: center;
+    transition: transform 0.2s;
+   }
+   .item-card:hover {
+    transform: scale(1.03);
+   }
+   .item-img {
+    background-color: #eee;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+   }
+   
+   .price {
+    color: #ff3399;
+    font-weight: bold;
+    font-size: 32px;
+    border-top: 1px solid #000000;
+    padding-top: 20px;
+   }
+   
+   .fashion-head {
+     font-size: 20px;
+     font-weight: 300;
+   }
+   
+   .logo {
+    height: auto;
+    width: 80px;
+    margin-right: 10px;
+   }
+   .account-btn {
+    padding: 6px 10px;
+    background-color: #ffcce5;
+    border: 1px solid #ff66aa;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+   }
+   
+   .footer-info {
+    font-size: 16px;
+    color: white;
+    background-color: black;
+   }
+
+
+/* Navigation mit Hilfe ChatGPT um <ul> schöner zu machen */
+.main-nav ul {
+  list-style: none;    /* remove default bullets */
+  padding: 0;          /* remove default indent */
+}
+
+.main-nav li {
+  display: inline;     /* line them up horizontally */
+  margin-right: 10px;  /* space between links */
+}
+
+.main-nav a {
+  text-decoration: none;  /* remove underline */
+  color: #333;            /* simple, readable color */
+  font-weight: 600;       /* a bit of emphasis */
+}
